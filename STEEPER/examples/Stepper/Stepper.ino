@@ -2,7 +2,7 @@
   ==Arduino==
   @name         Stepper
   @namespace    qchenmo.com
-  @version      0.1
+  @version      1.1
   @description  4（5）线步进电机库例程，四相电机
   @author       chemoontheshy
   @date         2020/3/7
@@ -62,4 +62,3 @@ void stepperrun() {
       break;
   }
 }
-
