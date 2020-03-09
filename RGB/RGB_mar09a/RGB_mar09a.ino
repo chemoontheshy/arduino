@@ -50,15 +50,14 @@ void loop()
       //      Serial.println(cr);
       //      Serial.println(cg);
       //      Serial.println(cb);
-      digitalWrite(r, cr);   // 点亮LED
-      digitalWrite(g, cg);   // 点亮LED
-      digitalWrite(b, cb);   // 点亮LED
+      digitalWrite(r, cr);   // 点亮r
+      digitalWrite(g, cg);   // 点亮g
+      digitalWrite(b, cb);   // 点亮b
     }
 
 
   }
 }
-
 void hextodex(String hex) {
   char dataarr[hex.length() + 1];
   hex.toCharArray(dataarr, hex.length() + 1);
