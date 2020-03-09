@@ -1,3 +1,10 @@
+/*
+ *  @name             RGB
+ *  @description      RGB demo
+ *  @version          1.0
+ *  @date             2020/3/9
+ *  @Author           chemoontheshy
+ */
 int r = 9;
 int g = 10;
 int b = 11;
@@ -29,8 +36,8 @@ void loop()
       delay(2);
     }
     Serial.println("data:" + data);
-    if (data.indexOf("rgb") > -1) {
-      data = data.substring(3);
+    if (data.indexOf("#") > -1) {
+      data = data.substring(1);
       String rb = data.substring(4);
       String rg = data.substring(2, 4);
       String rr = data.substring(0, 2);
