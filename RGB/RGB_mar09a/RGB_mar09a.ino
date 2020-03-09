@@ -1,10 +1,10 @@
 /*
- *  @name             RGB
- *  @description      RGB demo
- *  @version          1.0
- *  @date             2020/3/9
- *  @Author           chemoontheshy
- */
+    @name             RGB
+    @description      RGB demo
+    @version          1.0
+    @date             2020/3/9
+    @Author           chemoontheshy
+*/
 int r = 9;
 int g = 10;
 int b = 11;
@@ -47,29 +47,12 @@ void loop()
       long cg = iOut;
       hextodex(rb);
       long cb = iOut;
-      Serial.println(cr);
-      Serial.println(cg);
-      Serial.println(cb);
-      //      char dataarr[rb.length() + 1];
-      //      data.toCharArray(dataarr, rb.length() + 1);
-      //      Serial.println(dataarr);
-      //      long iOut;
-      //      iOut = strtol(dataarr, NULL, 16);
-      //      Serial.println("iOut");
-      //      Serial.println(iOut);
-
-      //      String rb = data.substring(4);
-      //      String rg = data.substring(2, 4);
-      //      String rr = data.substring(0, 2);
-      //      Serial.println("r:" + rr + " g:" + rg + " b:" + rb);
-      //      long crr=strtol(rr,NULL,16);
-      //      Serial.println(crr);
-      //      int cr = rr.toInt();
-      //      int cg = rg.toInt();
-      //      int cb = rb.toInt();
-            digitalWrite(r, cr);   // 点亮LED
-            digitalWrite(g, cg);   // 点亮LED
-            digitalWrite(b, cb);   // 点亮LED
+      //      Serial.println(cr);
+      //      Serial.println(cg);
+      //      Serial.println(cb);
+      digitalWrite(r, cr);   // 点亮LED
+      digitalWrite(g, cg);   // 点亮LED
+      digitalWrite(b, cb);   // 点亮LED
     }
 
 
