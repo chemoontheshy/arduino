@@ -1,0 +1,9 @@
+#class (KEYWORD1)
+Hex2dec	KEYWORD1
+ 
+ 
+#function and method (KEYWORD2)
+getsDec	KEYWORD2
+ 
+#constant (LITERAL1)
+#none
