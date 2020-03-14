@@ -18,13 +18,11 @@
 class Hex2dec
 {
   private:
-    String hex;
-    long dec;
-
+    char cdec;
   public:
-    Hex2dec(String hex);
+    Hex2dec();
     ~Hex2dec();
-    long getDec();
+    String getsDec(String hex, char type);
     
 };
 #endif
