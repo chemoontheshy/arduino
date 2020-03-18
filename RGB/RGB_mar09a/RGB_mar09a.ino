@@ -40,9 +40,9 @@ void loop()
       String rb = data.substring(4);
       String rg = data.substring(2, 4);
       String rr = data.substring(0, 2);
-      long cr = hextodec(rr);
-      long cg = hextodec(rg);
-      long cb = hextodec(rb);
+      long cr = 255-hextodec(rr);
+      long cg = 255-hextodec(rg);
+      long cb = 255-hextodec(rb);
       Serial.println(cr);
       Serial.println(cg);
       Serial.println(cb);
