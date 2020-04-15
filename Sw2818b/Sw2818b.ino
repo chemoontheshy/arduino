@@ -30,7 +30,7 @@ void loop() {
 
     pixels.show(); // This sends the updated pixel color to the hardware.
 
-    delay(delayval); // Delay for a period of time (in milliseconds).
+    //delay(delayval); // Delay for a period of time (in milliseconds).
 
   }
 }
