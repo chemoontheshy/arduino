@@ -22,7 +22,7 @@ void loop() {
     Serial.println("data:" + data);
     if (data == "1") {
       addr = 1;
-      val = 80;
+      val = 1;
       EEPROM.write(addr, val);//addr地址val 数值
     }
     if (data == "2") {

@@ -12,9 +12,11 @@ void loop() {
     receive();
     if(data=="a"){
        digitalWrite(PIN, HIGH);  
+       Serial.print("ta");
     }
      if(data=="s"){
-      digitalWrite(PIN, LOW);
+      digitalWrite(PIN, LOW);  
+      Serial.print("ts");
     }
   }                     // wait for a second
 }
@@ -25,8 +27,4 @@ void receive() {
     data = data + char(Serial.read());
     delay(2);
   }
-  Serial.println("data:" + data);
-  Serial.print("datasize:");
-  Serial.println(data.length());
-   Serial.write("test");
 }
