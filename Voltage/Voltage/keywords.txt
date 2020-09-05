@@ -1,0 +1,6 @@
+Voltage	KEYWORD1
+initPower	KEYWORD2
+Filter	KEYWORD2
+currentPower	KEYWORD2
+alarm	KEYWORD2
+stop	KEYWORD2
