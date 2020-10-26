@@ -7,7 +7,7 @@
 */
  int i = 10;
 void setup() {
-  Serial.begin(115200);//串口调试波特率
+  Serial.begin(9600);//串口调试波特率
   //
  
 }
